@@ -3,3 +3,20 @@ youtube-dl -i -f mp4 --yes-playlist https://www.youtube.com/channel/UCa34UpywFMw
 
  https://www.youtube.com/user/[user]/videos
 youtube-dl -i -f mp4 https://www.youtube.com/user/Callixtinus/videos
+
+
+140         m4a       audio only  DASH audio , audio@128k (worst)
+160         mp4       144p        DASH video , video only
+133         mp4       240p        DASH video , video only
+134         mp4       360p        DASH video , video only
+135         mp4       480p        DASH video , video only
+136         mp4       720p        DASH video , video only
+17          3gp       176x144     
+36          3gp       320x240     
+5           flv       400x240     
+43          webm      640x360     
+18          mp4       640x360     
+22          mp4       1280x720    (best)
+The best quality is 22 so use -f 22 instead of -F to download the MP4 video with 1280x720 resolution like this:
+
+youtube-dl -f 22 'http://www.youtube.com/watch?v=P9pzm5b6FFY'
