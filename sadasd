@@ -2,7 +2,7 @@
 youtube-dl -i -f mp4 --yes-playlist https://www.youtube.com/channel/UCa34UpywFMwIGJvh3msNYmg/playlist
 
  https://www.youtube.com/user/[user]/videos
-youtube-dl -i -f mp4 https://www.youtube.com/user/Callixtinus/videos
+youtube-dl https://www.youtube.com/user/Callixtinus/videos
 
 
 140         m4a       audio only  DASH audio , audio@128k (worst)
