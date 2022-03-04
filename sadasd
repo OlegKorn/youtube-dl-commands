@@ -4,6 +4,8 @@ youtube-dl -i -f mp4 --yes-playlist https://www.youtube.com/channel/UCa34UpywFMw
  https://www.youtube.com/user/[user]/videos
 youtube-dl https://www.youtube.com/user/Callixtinus/videos
 
+download from 26 to 40 videos
+youtube-dl  -i -f mp4 --yes-playlist -c --playlist-start 26 --playlist-end 40 https://www.youtube.com/user/amorroma1244/videos
 
 140         m4a       audio only  DASH audio , audio@128k (worst)
 160         mp4       144p        DASH video , video only
