@@ -1,7 +1,7 @@
 плейлист
-youtube-dl -i -f mp4 --yes-playlist https://www.youtube.com/channel/UCa34UpywFMwIGJvh3msNYmg/playlist
+youtube-dl -i -f mp4 --yes-playlist https://www.youtube.com/playlist?list=PLgAndSPz7FYNyfTP7n_HaFn1ncPyKs-VS
 
- https://www.youtube.com/user/[user]/videos
+https://www.youtube.com/user/[user]/videos
 youtube-dl https://www.youtube.com/user/Callixtinus/videos
 
 download from 26 to 40 videos
